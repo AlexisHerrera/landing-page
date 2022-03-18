@@ -1,13 +1,16 @@
 body {
     font-family: Roboto, sans-serif;
 }
+
+body > div {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 /* Header*/
 .intro {
     background-color: #1F2937;
     color: white;
-    padding-left: 200px;
-    padding-right: 200px;
-
 }
 .header {
     display: flex;
@@ -45,11 +48,13 @@ body {
     font-weight: bolder;
 }
 
-button {
+.left-column button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
+    width: 20%;
+    height: 15%;
 }
 
 .image-placeholder {
@@ -72,4 +77,47 @@ button {
     width: 50%;
 }
 
+/* Info section*/
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .title {
+    margin: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card button {
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card .text {
+    color: #494a4d;
+    font-size: 18px;
+    font-weight: 400;
+}
