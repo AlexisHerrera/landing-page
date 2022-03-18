@@ -1,0 +1,75 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+/* Header*/
+.intro {
+    background-color: #1F2937;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+/* Color subtext and links*/
+
+.header ul, .subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*Main content*/
+.main-content {
+    color: #F9FAF8;
+    display: flex;
+    gap: 25px;
+    padding: 50px 0px 50px 0px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.image-placeholder {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+}
+
+.main-content .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.main-content .right-column {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+
