@@ -1,5 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body > div {
@@ -43,7 +45,7 @@ body > div {
     padding: 50px 0px 50px 0px;
 }
 
-.title {
+.left-column .title {
     font-size: 48px;
     font-weight: bolder;
 }
@@ -145,4 +147,64 @@ body > div {
     align-self: flex-end;
     font-size: 20px;
     font-weight: bold;
+}
+
+/* Call to action section*/
+
+.container-big {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.call-to-action {
+    display: flex;
+    flex: 1;
+    gap: 200px;
+    background-color: #3882F6;
+    padding: 30px 50px 30px 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.call-to-action > * {
+    background-color: #3882F6;
+}
+
+.call-to-action button {
+    background-color: transparent;
+    border-color: #F9FAF8;
+    padding: 6px 25px 6px 25px;
+    border-width: 2px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.call-to-action .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call-to-action .content {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+    padding: 50px;
+    font-size: 18px;
+    font-weight: 500px;
+    color: #E5E7EB;
 }
